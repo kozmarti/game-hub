@@ -6,4 +6,4 @@ export default axios.create({
     params: {
     key: API_KEY
     }
-})
+})  
