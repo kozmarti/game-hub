@@ -9,3 +9,7 @@
 ## Installation
 
 ## Run
+
+## Data source
+
+Free API [rawg.io](https://rawg.io/apidocs)
