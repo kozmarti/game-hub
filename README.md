@@ -1,13 +1,11 @@
-# Description
+# Video game discovery app
 
-Video game discovery app.
-
-# Tools
+## Tools
 
 - REACT
 - TypeScript
 - Chakra UI
 
-# Installation
+## Installation
 
-# Run
+## Run
