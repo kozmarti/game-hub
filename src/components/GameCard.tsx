@@ -9,8 +9,8 @@ interface Props {
 }
 const GameCard = ({ game }: Props) => {
   return (
-    <Card maxW="sm" borderRadius={10} overflow="hidden">
-      <Image src={getCroppedImageUrl(game.background_image)} />
+    <Card maxW="sm" borderRadius={10} overflow="hidden" width="300px">
+      <Image src={getCroppedImageUrl(game.background_image)} height="200px"/>
       <CardBody>
         <Heading fontSize="2xl">{game.name}</Heading>
         <HStack justifyContent="space-between">
