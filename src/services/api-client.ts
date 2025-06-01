@@ -1,5 +1,5 @@
 import axios from "axios";
-import {API_KEY} from '../internal_settings'
+import {API_KEY} from '../internal_settings.ts'
 
 export default axios.create({
     baseURL: 'https://api.rawg.io/api',
