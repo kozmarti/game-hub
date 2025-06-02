@@ -3,6 +3,7 @@ import {API_KEY} from '../internal_settings.ts'
 
 export interface FetchResponse<T> {
     count: number;
+    next: string | null;
     results: T[];
 }
 
