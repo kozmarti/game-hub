@@ -1,5 +1,7 @@
 import axios, { AxiosRequestConfig } from "axios";
-import {API_KEY} from '../internal_settings.ts'
+
+// public api key
+const API_KEY = "4e58bece907a4bf5b910630d531dfcd8";
 
 export interface FetchResponse<T> {
     count: number;
