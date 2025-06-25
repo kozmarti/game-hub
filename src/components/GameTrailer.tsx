@@ -1,4 +1,3 @@
-import React from 'react'
 import useTrailers from '../hooks/useTrailers'
 
 interface Props {
@@ -14,5 +13,6 @@ const GameTrailer = ({ gameId }: Props) => {
     return (
         <video src={first.data[480]} poster={first.preview} controls/> 
 )}
+
 
 export default GameTrailer

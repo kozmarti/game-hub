@@ -5,7 +5,6 @@ import {
   FaXbox,
   FaLinux,
   FaAndroid,
-  FaAddressBook
 } from "react-icons/fa";
 import { SiAtari, SiSega, SiNeovim, SiCommodore, SiD3Dotjs } from "react-icons/si";
 
